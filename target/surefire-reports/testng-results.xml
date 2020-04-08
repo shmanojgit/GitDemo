@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="55731" started-at="2020-03-26T19:30:35Z" finished-at="2020-03-26T19:31:31Z">
+    <groups>
+    </groups>
+    <test name="LOGIN" duration-ms="34270" started-at="2020-03-26T19:30:35Z" finished-at="2020-03-26T19:31:09Z">
+      <class name="Academy.E2EProject.HomePage">
+        <test-method status="PASS" signature="initializing()[pri:0, instance:Academy.E2EProject.HomePage@3e11f9e9]" name="initializing" is-config="true" duration-ms="6061" started-at="2020-03-27T01:00:35Z" finished-at="2020-03-27T01:00:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializing -->
+        <test-method status="PASS" signature="baseNavigationDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.E2EProject.HomePage@3e11f9e9]" name="baseNavigationDriver" duration-ms="16198" started-at="2020-03-27T01:00:41Z" data-provider="getData" finished-at="2020-03-27T01:00:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestrict@test.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Non-restricted user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseNavigationDriver -->
+        <test-method status="PASS" signature="baseNavigationDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.E2EProject.HomePage@3e11f9e9]" name="baseNavigationDriver" duration-ms="11082" started-at="2020-03-27T01:00:57Z" data-provider="getData" finished-at="2020-03-27T01:01:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restrict@test.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[restricted user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseNavigationDriver -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.E2EProject.HomePage@3e11f9e9]" name="teardown" is-config="true" duration-ms="885" started-at="2020-03-27T01:01:08Z" finished-at="2020-03-27T01:01:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.E2EProject.HomePage -->
+    </test> <!-- LOGIN -->
+    <test name="NAVIGATION BAR" duration-ms="10982" started-at="2020-03-26T19:31:09Z" finished-at="2020-03-26T19:31:20Z">
+      <class name="Academy.E2EProject.ValidateNavbar">
+        <test-method status="PASS" signature="initializing()[pri:0, instance:Academy.E2EProject.ValidateNavbar@47e2e487]" name="initializing" is-config="true" duration-ms="9498" started-at="2020-03-27T01:01:09Z" finished-at="2020-03-27T01:01:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializing -->
+        <test-method status="PASS" signature="navigationBar()[pri:0, instance:Academy.E2EProject.ValidateNavbar@47e2e487]" name="navigationBar" duration-ms="689" started-at="2020-03-27T01:01:19Z" finished-at="2020-03-27T01:01:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigationBar -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.E2EProject.ValidateNavbar@47e2e487]" name="teardown" is-config="true" duration-ms="793" started-at="2020-03-27T01:01:20Z" finished-at="2020-03-27T01:01:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.E2EProject.ValidateNavbar -->
+    </test> <!-- NAVIGATION BAR -->
+    <test name="TITLE VADIDATION" duration-ms="10424" started-at="2020-03-26T19:31:20Z" finished-at="2020-03-26T19:31:31Z">
+      <class name="Academy.E2EProject.Validatetitle">
+        <test-method status="PASS" signature="initializing()[pri:0, instance:Academy.E2EProject.Validatetitle@4b8ee4de]" name="initializing" is-config="true" duration-ms="9448" started-at="2020-03-27T01:01:20Z" finished-at="2020-03-27T01:01:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializing -->
+        <test-method status="PASS" signature="baseNavigationDriver()[pri:0, instance:Academy.E2EProject.Validatetitle@4b8ee4de]" name="baseNavigationDriver" duration-ms="549" started-at="2020-03-27T01:01:30Z" finished-at="2020-03-27T01:01:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseNavigationDriver -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.E2EProject.Validatetitle@4b8ee4de]" name="teardown" is-config="true" duration-ms="425" started-at="2020-03-27T01:01:30Z" finished-at="2020-03-27T01:01:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.E2EProject.Validatetitle -->
+    </test> <!-- TITLE VADIDATION -->
+  </suite> <!-- Suite -->
+</testng-results>

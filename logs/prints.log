@@ -1,0 +1,7 @@
+01:08:41.831 [main] INFO  resources.Base - Non-restricted user
+01:08:44.205 [main] INFO  resources.Base - Get login selected
+01:08:57.679 [main] INFO  resources.Base - restricted user
+01:09:03.690 [main] INFO  resources.Base - Get login selected
+01:09:20.287 [main] INFO  resources.Base - Navigation bar is displayed
+01:09:30.388 [main] INFO  resources.Base - Driver is initialised
+01:09:36.388 [main] INFO  resources.Base - Navigated to Home page
